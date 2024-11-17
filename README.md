@@ -135,7 +135,9 @@ In this case, when the input field is updated, the `message` property is updated
 
 ## Build
 
+After cloning the repo , run the below command
 ```javascript
+npm install
 npm run build
 ```
 
