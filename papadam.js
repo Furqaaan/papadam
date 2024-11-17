@@ -3,7 +3,6 @@
  * The library supports basic event handling and data-binding expressions.
  * 
  * @param {Object} data - The initial state object that will be bound to DOM elements.
- * 
  * @returns {Proxy} - A reactive proxy object representing the state.
  */
 function usePapadam(data = {}) {
