@@ -20,7 +20,7 @@ You can use `papadam` in your project in multiple ways.
 To use ```papadam``` directly from a CDN, include the following `<script>`.
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/papadam/dist/papadam.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papadam/dist/index.min.js"></script>
 ```
 Then, in your JavaScript file:
 
