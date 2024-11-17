@@ -115,11 +115,11 @@ If you'd like to contribute to the project, feel free to fork the repository and
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Furqaaan/papadam/blob/master/LICENSE) file for details.
 
----
+## Changelog
+
+You can find the detailed changelog of this project in the [CHANGELOG.md](https://github.com/Furqaaan/papadam/blob/master/CHANGELOG.md) file.
 
 ### Additional Notes
 
 -   This library is designed to be simple and minimalistic. It does not include routing, templating, or other advanced features found in larger frameworks.
 -   It is intended for small to medium-sized projects or for those who want to add reactivity to a project without introducing a full-fledged framework.
-
----
