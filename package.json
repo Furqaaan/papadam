@@ -1,6 +1,6 @@
 {
     "name": "papadam",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A lightweight JavaScript library that provides reactivity and data-binding for DOM elements. It allows you to create reactive state objects that automatically update the DOM when the state changes, making it easy to implement dynamic and interactive UIs.",
     "main": "papadam.js",
     "scripts": {
