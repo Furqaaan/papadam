@@ -11,6 +11,38 @@
 -   **No Build Tools Required**: Works directly in the browser with vanilla JavaScript.
 -   **Minimalistic Design**: The entire library is just **1.5 KB**, making it an extremely efficient choice for performance-conscious applications.
 
+## Data Binding with @data
+
+- The `@data` attribute is used to bind a DOM element to a property in the reactive state managed by `usePapadam`. Any change in state would update the DOM element.
+
+### Example:
+
+```html
+<span @data="count"></span>
+
+<script>
+    const state = Papadam.usePapadam({
+        count: 0
+    });
+
+    state.count = 100 // This would update the <span>
+</script>
+```
+
+## Event Handlers Support
+
+- `@click`
+- `@mouseenter`
+- `@mouseleave`
+- `@input`
+- `@keydown`
+- `@change`
+- `@focus`
+- `@blur`
+
+**Note**: ```papadam``` supports all JavaScript events, so you can use any event name with the `@` prefix (e.g., `@submit`, `@keyup`, `@resize`, etc.).
+
+
 ## Installation
 
 You can use `papadam` in your project in multiple ways.
