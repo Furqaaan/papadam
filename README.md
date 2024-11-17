@@ -84,7 +84,7 @@ To use ```papadam```, you need to set up your HTML with special data-binding att
 #### Example HTML
 
 ```html
-<span @data="`Current count is: ${count}`"></span>
+<span @data="count"></span>
 <button @click="count++">Increment Count</button>
 ```
 
