@@ -1,6 +1,7 @@
-# Papadam.js
 
-**Papadam.js** is a lightweight JavaScript library that provides reactivity and data-binding for DOM elements. It allows you to create reactive state objects that automatically update the DOM when the state changes, making it easy to implement dynamic and interactive UIs.
+# Papadam
+
+```papadam``` is a lightweight JavaScript library that provides reactivity and data-binding for DOM elements. It allows you to create reactive state objects that automatically update the DOM when the state changes, making it easy to implement dynamic and interactive UIs.
 
 ## Features
 
@@ -8,27 +9,45 @@
 -   **DOM Binding**: Bind data to DOM elements using `@data` attributes.
 -   **Event Handling**: Handle events with `@event` attributes (like `@click`, `@input`).
 -   **No Build Tools Required**: Works directly in the browser with vanilla JavaScript.
-- **Minimalistic Design**: The entire library is just **6 KB**, making it an extremely efficient choice for performance-conscious applications.
+-   **Minimalistic Design**: The entire library is just **1.5 KB**, making it an extremely efficient choice for performance-conscious applications.
 
 ## Installation
 
-You can directly include `papadam.js` in your HTML file or download the library to use it.
+You can use `papadam` in your project in multiple ways.
 
+### 1. **Via CDN (Content Delivery Network)**
 
-### Via Download
-
-1. Download `papadam.js` from the [repository](https://github.com/furqaaan/papadam.js).
-2. Include it in your project.
+To use ```papadam``` directly from a CDN, include the following `<script>`.
 
 ```html
-<script src="path/to/papadam.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papadam.js@0.0.1/dist/papadam.min.js"></script>
+```
+Then, in your JavaScript file:
+
+```javascript
+const state = Papadam.usePapadam({
+    count: 0
+});
+```
+
+### 2. **Via ```import``` (ES Modules)**
+First, install the package:
+
+```javascript
+npm install papadam
+```
+
+Then, in your JavaScript file:
+
+```javascript
+import { usePapadam } from 'papadam';
 ```
 
 ## Basic Usage
 
 ### HTML Structure
 
-To use papadam.js`, you need to set up your HTML with special data-binding attributes.
+To use ```papadam```, you need to set up your HTML with special data-binding attributes.
 
 #### Example HTML
 
@@ -81,6 +100,12 @@ You can bind more complex expressions or use JavaScript functions in your event 
 ```
 
 In this case, when the input field is updated, the `message` property is updated, which automatically triggers the DOM to reflect the new message.
+
+## Build
+
+```javascript
+npm run build
+```
 
 ## Contributing
 

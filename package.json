@@ -1,19 +1,32 @@
 {
-  "name": "papadam",
-  "version": "0.0.1",
-  "description": "A lightweight JavaScript library that provides reactivity and data-binding for DOM elements. It allows you to create reactive state objects that automatically update the DOM when the state changes, making it easy to implement dynamic and interactive UIs.",
-  "main": "papadam.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Furqaaan/papadam.git"
-  },
-  "author": "Furqan Hameed",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Furqaaan/papadam/issues"
-  },
-  "homepage": "https://github.com/Furqaaan/papadam#readme"
+    "name": "papadam",
+    "version": "0.0.1",
+    "description": "A lightweight JavaScript library that provides reactivity and data-binding for DOM elements. It allows you to create reactive state objects that automatically update the DOM when the state changes, making it easy to implement dynamic and interactive UIs.",
+    "main": "papadam.js",
+    "scripts": {
+        "build": "rollup -c",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+        "dist/",
+        "README.md",
+        "LICENSE",
+        "package.json"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Furqaaan/papadam.git"
+    },
+    "author": "Furqan Hameed",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Furqaaan/papadam/issues"
+    },
+    "homepage": "https://github.com/Furqaaan/papadam#readme",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^28.0.1",
+        "@rollup/plugin-node-resolve": "^15.3.0",
+        "rollup": "^2.79.2",
+        "rollup-plugin-terser": "^7.0.2"
+    }
 }
