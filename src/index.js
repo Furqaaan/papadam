@@ -183,23 +183,3 @@ export function usePapadam(data = {}) {
 
     return state;
 }
-
-(function(global) {
-    // Define the usePapadam function
-    function usePapadam(data = {}) {
-        // Your existing usePapadam implementation
-    }
-
-    // Check if we're in a module environment or global context
-    if (typeof module !== 'undefined' && module.exports) {
-        // For CommonJS (Node.js) or ES Modules
-        module.exports = usePapadam;
-    } else if (typeof define === 'function' && define.amd) {
-        // For AMD (Asynchronous Module Definition)
-        define(() => usePapadam);
-    } else {
-        // For browsers, attach to the global window object
-        global.usePapadam = usePapadam;
-    }
-
-})(typeof window !== 'undefined' ? window : global);
