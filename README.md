@@ -33,7 +33,7 @@ To use papadam.js`, you need to set up your HTML with special data-binding attri
 #### Example HTML
 
 ```html
-<h1 @data="`Current count is: ${count}`"></h1>
+<span @data="`Current count is: ${count}`"></span>
 <button @click="count++">Increment Count</button>
 ```
 
@@ -77,7 +77,7 @@ You can bind more complex expressions or use JavaScript functions in your event 
     @input="message = event.target.value"
     placeholder="Type a message"
 />
-<h1 @data="message"></h1>
+<span @data="message"></span>
 ```
 
 In this case, when the input field is updated, the `message` property is updated, which automatically triggers the DOM to reflect the new message.
