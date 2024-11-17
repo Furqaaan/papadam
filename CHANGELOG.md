@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.0.3]
+
+### Fixed
+- Fixed typos and removed dead code.
+
 ## [0.0.2]
 
 ### Added
