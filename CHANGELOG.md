@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.0.4]
+
+### Fixed
+- Added missing return statement in Proxy setter.
+
 ## [0.0.3]
 
 ### Fixed

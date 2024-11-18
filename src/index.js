@@ -127,6 +127,8 @@ export function usePapadam(data = {}) {
                     target[key] = value;
                     refreshDom();
                 }
+
+                return true;
             },
         });
     }
