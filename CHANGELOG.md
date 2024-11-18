@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.0.5]
+
+### Fixed
+- Added missing module path in package.json .
+
 ## [0.0.4]
 
 ### Fixed
